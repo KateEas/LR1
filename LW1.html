@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link href="LW1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="divHome">
+        <h1>Калькулятор</h1>
+    </div>
+    <div>
+        <button  onclick="show_sum()"><b>Сложение
+        </b></button>
+        <button  onclick="show_multi()"><b>Умножение</b>
+        </button>
+        <button  onclick="show_subtraction()"><b>Вычитание</b>
+        </button>
+        <button  onclick="show_division()"><b>Деление</b>
+        </button>
+        <button  onclick="show_modulo()"><b>Остаток от деления</b>
+        </button>
+    </div>
+    <script>
+        function show_sum() {
+            let number_1 = Number(prompt('Введите первое число: '));
+            let number_2 = Number(prompt('Введите второе число: '));
+            let resalt = number_1 + number_2;
+            alert(number_1+' + '+number_2+'='+resalt);
+        }
+        function show_multi() {
+            let number_1 = Number(prompt('Введите первое число: '));
+            let number_2 = Number(prompt('Введите второе число: '));
+            let resalt = number_1 * number_2
+            alert(number_1+' * '+number_2+'='+resalt);
+        }
+        function show_subtraction() {
+            let number_1 = Number(prompt('Введите первое число: '));
+            let number_2 = Number(prompt('Введите второе число: '));
+            let resalt = number_1 - number_2
+            alert(number_1+' - '+number_2+'='+resalt);
+        }
+        function show_division() {
+            let number_1 = Number(prompt('Введите первое число: '));
+            let number_2 = Number(prompt('Введите второе число: '));
+            let resalt = number_1 / number_2
+            alert(number_1+' / '+number_2+'='+resalt);
+        }
+        function show_modulo() {
+            let number_1 = Number(prompt('Введите первое число: '));
+            let number_2 = Number(prompt('Введите второе число: '));
+            let resalt = number_1 % number_2
+            alert('Остаток '+number_1+' % '+number_2+'='+resalt);
+        }
+    </script>
+</body>
+
+</html>

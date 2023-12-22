@@ -1,0 +1,25 @@
+button {
+    color: rgba(17, 129, 17, 0.493);
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    font-size: medium;
+
+}
+div.divHome {
+    background-color: rgba(17, 129, 17, 0.493);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align:center;
+    text-shadow: black 0 0 2px;
+}
+
+
+div {
+    background-color: rgba(17, 129, 17, 0.493);
+    color: white;
+    padding: 20px;
+    text-align:center;
+}
